@@ -1,48 +1,86 @@
-#Java Compiled file
-
+# ==========================================
+# Java Compiled Files
+# ==========================================
 
 *.class
 
-#Build folder
+
+# ==========================================
+# Build Folders
+# ==========================================
+
 target/
+build/
 bin/
 out/
 
-#Eclipse
+
+# ==========================================
+# Eclipse IDE
+# ==========================================
+
 .metadata/
 .classpath
 .project
 .settings/
 
-#Servers
+
+# ==========================================
+# Eclipse / Tomcat Server
+# ==========================================
+
 servers/
 
-#maven
+
+# ==========================================
+# Maven Temporary / Backup Files
+# ==========================================
+
 pom.xml.tag
 pom.xml.releaseBackup
-pom.xml.versionBackup
+pom.xml.versionsBackup
 pom.xml.next
 release.properties
 
-.log
 
+# ==========================================
+# Log Files
+# ==========================================
+
+*.log
+
+
+# ==========================================
+# Temporary Files
+# ==========================================
 
 *.tmp
 *.temp
 *.swp
 *.swo
 
+
+# ==========================================
+# Operating System Files
+# ==========================================
+
 .DS_Store
-Thumbs.ds
+Thumbs.db
+
+
+# ==========================================
+# Tomcat Runtime Files
+# ==========================================
 
 work/
 temp/
 logs/
 
 
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
 
 .env
 .env.*
 !.env.example
-
-
